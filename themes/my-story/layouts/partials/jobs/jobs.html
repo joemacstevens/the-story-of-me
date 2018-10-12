@@ -1,0 +1,9 @@
+
+{{ range where .Pages "Section" "jobs"}}
+    <section class="jobs">
+        <h2>{{.Title}}</h2>
+        <h3> {{.Params.job}}</h3>
+        {{.Content}}
+    </section>
+{{end}}
+
