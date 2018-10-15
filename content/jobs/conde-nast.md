@@ -6,6 +6,7 @@ job: "Senior Web Developer"
 start: May 2007
 end: March 2009
 order: 3
+workflow: Agile SCRUM
 ---
 
 * 	Developed over 100 landing pages for weekly sweepstakes on Brides.com. 

@@ -13,11 +13,8 @@
     <div class="main">
         <header class="intro">
             <div class="copy">
-                <h1>Hi!</h1>
-                <h2>I'm <span>{{.Params.name}}</span></h2>
-            </div>
-            <div class="profile">
-                <img src="{{relURL "images/profile.png"}}" alt="">
+                <h1 class="greeting">Hi! <img src="{{relURL "images/profile.png"}}" alt=""></h1>
+                <h2 class="whoami">I'm <span>{{.Params.name}}</span></h2>
             </div>
         </header>
         {{ partial "about/about.html" . }}

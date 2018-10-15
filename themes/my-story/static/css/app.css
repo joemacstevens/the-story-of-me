@@ -17,14 +17,16 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
-
-.intro > *{
-    flex: 1 1 250px;
-}
-
-.profile {
+    justify-content: center;
     text-align: center;
+}
+
+.intro .greeting {
+    font-size: 10em;
+}
+
+.copy img {
+    width: 135px;
 }
 
 .profile img {
@@ -36,7 +38,21 @@ img {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        .job-title {
-         white-space: nowrap;   
-        }
+    .job-title {
+    white-space: nowrap;
+    font-size: 80%;
     }
+
+    .greeting {
+        margin-bottom: 0;
+        margin-top: 0
+    }
+
+    .copy img {
+        margin-top: 20px;
+    }
+
+    .whoami {
+        margin-top: 0;
+    }
+}
