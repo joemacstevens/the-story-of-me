@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,21 @@
     <title>{{.Title}} | {{.Params.name}} | {{.Params.position}}</title>
     <link rel="stylesheet" href={{ relURL "css/app.css"}}>
 </head>
+
 <body>
-    <header class="intro">
-    <h1>Hello,</h1> <h2>I'm <span>{{.Params.name}}</span></h2>
-    </header>
+    <div class="main">
+        <header class="intro">
+            <div class="copy">
+                <h1>Hi!</h1>
+                <h2>I'm <span>{{.Params.name}}</span></h2>
+            </div>
+            <div class="profile">
+                <img src="{{relURL "images/profile.png"}}" alt="">
+            </div>
+        </header>
         {{ partial "about/about.html" . }}
         {{ partial "jobs/jobs.html" . }}
+    </div>
 </body>
+
 </html>
