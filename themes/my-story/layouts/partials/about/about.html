@@ -1,0 +1,6 @@
+
+{{ range where .Pages "Section" "about"}}
+<section class="about">
+    {{.Content}}
+</section>
+{{end}}

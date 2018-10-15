@@ -1,8 +1,11 @@
 ---
 title: "Heartbeat Ideas"
 date: 2018-10-12T14:40:55-04:00
-draft: true
+draft: false
 job: "Senior User Interface Developer"
+start: May 2011
+end: May 2017
+order: 5
 ---
 
 I got the opportunity to work on a multitude of different exciting projects at Heartbeat, to include marketing landing pages, a ASP MVC based CRM tool and a progressive web app for helping people manage their Crohn's disease. Of the many projects I worked on here are the ones I enjoyed the most and had the most impact on

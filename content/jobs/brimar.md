@@ -1,8 +1,11 @@
 ---
 title: "Brimar Industries"
 date: 2018-10-12T14:40:55-04:00
-draft: true
+draft: false
 job: "Senior Web Developer / Junior Designer"
+start: March 2009
+end: April 2011
+order: 4
 ---
 
 Led a small team of Developers and Designers to completely redesign and rebuild company's user interfaces  for two online storefronts [Safetysign.com](http://safetysign.com) and [Pipemarker.com](http://pipemarker.com). Collaborated extremely close with the CEO and Operations Director to develop requirements for redesign, also met with stakeholders biweekly to access progress, demo functionality and adjust implementation as needed.

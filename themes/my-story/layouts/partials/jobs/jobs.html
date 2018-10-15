@@ -1,9 +1,16 @@
 
-{{ range where .Pages "Section" "jobs"}}
+{{ range where (.Pages.ByParam "order").Reverse "Section" "jobs" }}
     <section class="jobs">
-        <h2>{{.Title}}</h2>
-        <h3> {{.Params.job}}</h3>
-        {{.Content}}
+        <header>
+            <h3>{{.Title}}</h3>
+            <h4> {{.Params.job}}</h4>
+            <p class="dates">
+                <span class="start">{{ .Params.start}}</span> - <span class="end">{{ .Params.end}}</span>
+            </p>
+        </header>
+        <article>
+            {{.Content}}
+        </article>
     </section>
 {{end}}
 

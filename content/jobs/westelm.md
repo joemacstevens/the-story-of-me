@@ -1,11 +1,14 @@
 ---
 title: "West Elm"
 date: 2018-10-12T14:40:55-04:00
-draft: true
+draft: false
 job: "Senior Front End Engineer"
+start: June 2017
+end: "Present"
+order: 6
 ---
 
-Williams Somona's family of brand websites are huge enterprise application, throughout my time here was able to contribute to the development of a multi of features including the Store Locator section of westelm.com utilizing the brand new CSS Grid specification for responsiveness across different platforms. Worked with a custom component library based on the upcoming Web Component specification.
+I worked on Williams Somona's family of brand websites, a huge enterprise application. Throughout my time here was able to contribute to the development of a multi of features including the Store Locator section of westelm.com utilizing the brand new CSS Grid specification for responsiveness across different platforms. Worked with a custom component library based on the upcoming Web Component specification.
 
 In addition I was a very activecontributor on the following;
 
