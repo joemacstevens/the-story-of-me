@@ -2,8 +2,7 @@
 {{ range where (.Pages.ByParam "order").Reverse "Section" "jobs" }}
     <section class="jobs">
         <header>
-            <h3>{{.Title}}</h3>
-            <h4> {{.Params.job}}</h4>
+            <h4>{{.Title}}<span class="job-title"> | {{.Params.job}}</span></h4>
             <p class="dates">
                 <span class="start">{{ .Params.start}}</span> - <span class="end">{{ .Params.end}}</span>
             </p>
