@@ -10,4 +10,4 @@ order: 1
 
 My job in the US Navy was as a Information Systems Technician which was responsible for setting up and maintaining classified communications between our command and others. 
 
-* I also designed,developed and maintained the first official websites for two commands; the USS Fort McHenry and the USS O'Brien as well as developed the internal Intranet for Military Sealift Command in addition to my regular duties
+* I also designed and developed and maintained the first official websites for two commands; the USS Fort McHenry and the USS O'Brien as well as developed the internal Intranet for Military Sealift Command in addition to my regular duties

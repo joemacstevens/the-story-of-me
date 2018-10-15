@@ -25,22 +25,36 @@ img {
     font-size: 10em;
 }
 
-.copy img {
+.mypic {
     width: 135px;
-}
-
-.profile img {
-    width: 60%;
 }
 
 .job-title {
     font-weight: 400;
 }
 
+.profile .logo {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    border-top: 2px solid;
+    border-color: #cccccc;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .job-title {
-    white-space: nowrap;
-    font-size: 80%;
+        white-space: nowrap;
+        font-size: 80%;
     }
 
     .greeting {
@@ -48,7 +62,7 @@ img {
         margin-top: 0
     }
 
-    .copy img {
+    .mypic {
         margin-top: 20px;
     }
 

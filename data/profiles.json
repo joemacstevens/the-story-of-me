@@ -1,0 +1,13 @@
+{
+	"profile": [{
+			"link": "https://github.com/joemacstevens",
+			"logo": "git.svg",
+			"name": "Github"
+		},
+		{
+			"link": "https://codepen.io/phogasmic/",
+			"logo": "codepen.png",
+			"name": "Codepen"
+		}
+	]
+}

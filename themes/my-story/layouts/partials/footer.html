@@ -1,3 +1,9 @@
 <footer>
-    <s>I am a footer</s>
+        <div class="profile">
+                {{ range $.Site.Data.profiles.profile }}
+                   <div class="logo">
+                       <a href="{{.link}}" target="_blank"><img src="{{relURL "images/skills"}}/{{.logo}}" alt=""></a>
+                    </div>
+                 {{ end }}
+            </div>
 </footer>
