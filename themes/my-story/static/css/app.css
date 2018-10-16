@@ -45,22 +45,24 @@ img {
 }
 
 footer {
-    border-top: 2px solid;
-    border-color: #cccccc;
     padding: 20px 0;
     margin-top: 40px;
 }
 
+footer .seperator {
+    margin-bottom: 20px
+}
+
 .seperator {
     text-align: center;
-    padding: 10px 0;
-    background: #091254;
+    padding: 20px 0;
+    border-bottom: 2px solid #091254;
+    border-top: 2px solid #091254;
 }
 
 .seperator > *{
-    color: #ffffff;
+    color: #091254;
     margin: 0;
-    font-weight: 500;
 }
 
 .skills .content-container {

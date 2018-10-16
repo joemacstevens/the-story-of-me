@@ -1,5 +1,8 @@
-
-{{ range where (.Pages.ByParam "order").Reverse "Section" "jobs" }}
+<section id="jobs" class="jobs-container">
+    <header class="seperator">
+        <h4>Work History</h4>
+    </header>
+    {{ range where (.Pages.ByParam "order").Reverse "Section" "jobs" }}
     <section class="jobs">
         <header>
             <h4>{{.Title}}<span class="job-title"> | {{.Params.job}}</span></h4>
@@ -11,5 +14,4 @@
             {{.Content}}
         </article>
     </section>
-{{end}}
-
+    {{end}}
