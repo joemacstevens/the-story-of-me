@@ -1,0 +1,14 @@
+<section id="skills" class="skills">
+        <header class="seperator">
+            <h4>Skills</h4>
+        </header>
+<div class="content-container">
+{{ range $.Site.Data.skills }}
+<div class="logo">
+    <div class="logo-container"><img src="{{relURL "images/skills"}}/{{.logo}}" alt=""></div>
+    <p class="skill-name">{{.name}}</p>
+ </div>
+{{ end }}
+</div>
+
+</section>

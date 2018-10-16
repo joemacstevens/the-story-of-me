@@ -18,8 +18,14 @@
             </div>
         </header>
         {{ partial "about/about.html" . }}
-        {{ partial "jobs/jobs.html" . }}
-        {{ partial "footer.html" . }}
+        <section id="jobs">
+            <header class="seperator">
+                <h4>Work History</h4>
+            </header>   
+         {{ partial "jobs/jobs.html" . }}
+        </section>
+            {{ partial "about/skills.html" . }}
+            {{ partial "footer.html" . }}
     </div>
 </body>
 

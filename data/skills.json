@@ -1,0 +1,92 @@
+{
+    "javascript": {
+      "level": "4",
+      "logo": "javascript.png",
+      "type": "basics",
+      "name": "javascript"
+    },
+    "jquery": {
+      "level": "5",
+      "logo": "jquery.svg",
+      "type": "library",
+      "name": "jquery"
+    },
+    "jest": {
+      "level": "2",
+      "logo": "jest.svg",
+      "type": "testing",
+      "name": "jest"
+    },
+    "freemarker": {
+      "level": "2",
+      "logo": "freemarker.png",
+      "type": "templating",
+      "name": "freemarker"
+    },
+    "git": {
+      "level": "3",
+      "logo": "git.svg",
+      "type": "version",
+      "name": "git"
+    },
+    "react": {
+      "level": "3",
+      "logo": "react.svg",
+      "type": "library",
+      "name": "react"
+    },
+    "html5": {
+      "level": "5",
+      "logo": "html5.svg",
+      "type": "basics",
+      "name": "html5"
+    },
+    "gsap": {
+      "level": "4",
+      "logo": "gsap.png",
+      "type": "library",
+      "name": "gsap"
+    },
+    "sass": {
+      "level": "5",
+      "logo": "sass.svg",
+      "type": "basics",
+      "name": "sass"
+    },
+    "vue": {
+      "level": "3",
+      "logo": "vue.svg",
+      "type": "library",
+      "name": "vue"
+    },
+    "webpack": {
+      "level": "3",
+      "logo": "webpack.svg",
+      "type": "build",
+      "name": "webpack"
+    },
+    "php": {
+      "level": "2",
+      "logo": "php.svg",
+      "type": "backend",
+      "name": "php"
+    },
+    "grunt": {
+      "level": "3",
+      "logo": "grunt.svg",
+      "type": "build",
+      "name": "grunt"
+    },
+    "css": {
+      "level": "5",
+      "logo": "css.svg",
+      "type": "basics",
+      "name": "css"
+    },
+    "asp": {
+      "level": "2",
+      "logo": "asp.svg",
+      "type": "backend",
+      "name": "asp"
+    }
+  }

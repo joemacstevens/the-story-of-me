@@ -51,6 +51,39 @@ footer {
     margin-top: 40px;
 }
 
+.seperator {
+    text-align: center;
+    padding: 10px 0;
+    background: #091254;
+}
+
+.seperator > *{
+    color: #ffffff;
+    margin: 0;
+    font-weight: 500;
+}
+
+.skills .content-container {
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    display: grid;
+    align-items: center;
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.skills .logo-container {
+    height: 100px;
+}
+
+.skills .logo img {
+    max-height: 100%;
+}
+
+.skills .logo {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .job-title {
         white-space: nowrap;
